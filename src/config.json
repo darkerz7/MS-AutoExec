@@ -1,0 +1,384 @@
+{
+	"_comment": "Types of triggers:",
+	"_comment01": "- OnMapSpawn",
+	"_comment02": "- OnMapEnd",
+	"_comment03": "- OnRoundStartAlways",
+	"_comment04": "- OnRoundStartWarmUp",
+	"_comment05": "- OnRoundStartAfterWarmUp",
+	"_comment06": "- OnRoundEndAlways",
+	"_comment07": "- OnRoundEndWarmUp",
+	"_comment08": "- OnRoundEndAfterWarmUp",
+	"_comment09": "- OnSecondHalf",
+	"_comment10": "- OnSecondHalfEnd",
+	"_comment11": "- OnFirstHalf",
+	"_comment12": "- OnFirstHalfEnd",
+	"_comment13": "- OnPreHalfTime",
+	"_comment14": "- OnPreHalfTimeEnd",
+	"_comment15": "- OnRoundPrestart",
+	"_comment16": "- OnSecondHalfPrestart",
+	"_comment17": "- OnFirstHalfPrestart",
+	"_comment18": "- OnPreHalfTimePrestart",
+	"OnMapSpawn": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnMapSpawn Triggered",
+				"sv_gravity 800"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnMapSpawn Triggered. Delay 1.0",
+				"sv_gravity 701"
+			]
+		}
+	],
+	"OnMapEnd": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnMapEnd Triggered",
+				"sv_gravity 802"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnMapEnd Triggered. Delay 1.0",
+				"sv_gravity 703"
+			]
+		}
+	],
+	"OnRoundStartAlways": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnRoundStartAlways Triggered",
+				"sv_ignoregrenaderadio 1",
+				"sv_full_alltalk 1",
+				"mp_solid_teammates 0",
+				"sv_gravity 804"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnRoundStartAlways Triggered. Delay 1.0",
+				"sv_gravity 705"
+			]
+		}
+	],
+	"OnRoundStartWarmUp": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnRoundStartWarmUp Triggered",
+				"sv_gravity 806"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnRoundStartWarmUp Triggered. Delay 1.0",
+				"sv_gravity 707"
+			]
+		}
+	],
+	"OnRoundStartAfterWarmUp": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnRoundStartAfterWarmUp Triggered",
+				"sv_gravity 808"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnRoundStartAfterWarmUp Triggered. Delay 1.0",
+				"sv_gravity 709"
+			]
+		}
+	],
+	"OnRoundEndAlways": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnRoundEndAlways Triggered",
+				"sv_gravity 810"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnRoundEndAlways Triggered. Delay 1.0",
+				"sv_gravity 711"
+			]
+		}
+	],
+	"OnRoundEndWarmUp": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnRoundEndWarmUp Triggered",
+				"sv_gravity 812"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnRoundEndWarmUp Triggered. Delay 1.0",
+				"sv_gravity 713"
+			]
+		}
+	],
+	"OnRoundEndAfterWarmUp": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnRoundEndAfterWarmUp Triggered",
+				"sv_gravity 814"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnRoundEndAfterWarmUp Triggered. Delay 1.0",
+				"sv_gravity 715"
+			]
+		}
+	],
+	"OnSecondHalf": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnSecondHalf Triggered",
+				"sv_gravity 816"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnSecondHalf Triggered. Delay 1.0",
+				"sv_gravity 717"
+			]
+		}
+	],
+	"OnSecondHalfEnd": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnSecondHalfEnd Triggered",
+				"sv_gravity 818"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnSecondHalfEnd Triggered. Delay 1.0",
+				"sv_gravity 719"
+			]
+		}
+	],
+	"OnFirstHalf": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnFirstHalf Triggered",
+				"sv_gravity 820"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnFirstHalf Triggered. Delay 1.0",
+				"sv_gravity 721"
+			]
+		}
+	],
+	"OnFirstHalfEnd": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnFirstHalfEnd Triggered",
+				"sv_gravity 822"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnFirstHalfEnd Triggered. Delay 1.0",
+				"sv_gravity 723"
+			]
+		}
+	],
+	"OnPreHalfTime": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnPreHalfTime Triggered",
+				"sv_gravity 824"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnPreHalfTime Triggered. Delay 1.0",
+				"sv_gravity 725"
+			]
+		}
+	],
+	"OnPreHalfTimeEnd": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnPreHalfTimeEnd Triggered",
+				"sv_gravity 826"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnPreHalfTimeEnd Triggered. Delay 1.0",
+				"sv_gravity 727"
+			]
+		}
+	],
+	"OnRoundPrestart": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnRoundPrestart Triggered",
+				"sv_gravity 828"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnRoundPrestart Triggered. Delay 1.0",
+				"sv_gravity 729"
+			]
+		}
+	],
+	"OnSecondHalfPrestart": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnSecondHalfPrestart Triggered",
+				"sv_gravity 830"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnSecondHalfPrestart Triggered. Delay 1.0",
+				"sv_gravity 731"
+			]
+		}
+	],
+	"OnFirstHalfPrestart": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnFirstHalfPrestart Triggered",
+				"sv_gravity 832"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnFirstHalfPrestart Triggered. Delay 1.0",
+				"sv_gravity 733"
+			]
+		}
+	],
+	"OnPreHalfTimePrestart": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] OnPreHalfTimePrestart Triggered",
+				"sv_gravity 834"
+			]
+		},
+		{
+			"ShowInConsole": true,
+			"EntryInLog": true,
+			"Delay": 1.0,
+			"Commands": [
+				"say [AutoExec] OnPreHalfTimePrestart Triggered. Delay 1.0",
+				"sv_gravity 735"
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"_comment": "Types of triggers:",
+	"_comment01": "- OnMapSpawn",
+	"_comment02": "- OnMapEnd",
+	"_comment03": "- OnRoundStartAlways",
+	"_comment04": "- OnRoundStartWarmUp",
+	"_comment05": "- OnRoundStartAfterWarmUp",
+	"_comment06": "- OnRoundEndAlways",
+	"_comment07": "- OnRoundEndWarmUp",
+	"_comment08": "- OnRoundEndAfterWarmUp",
+	"_comment09": "- OnSecondHalf",
+	"_comment10": "- OnSecondHalfEnd",
+	"_comment11": "- OnFirstHalf",
+	"_comment12": "- OnFirstHalfEnd",
+	"_comment13": "- OnPreHalfTime",
+	"_comment14": "- OnPreHalfTimeEnd",
+	"_comment15": "- OnRoundPrestart",
+	"_comment16": "- OnSecondHalfPrestart",
+	"_comment17": "- OnFirstHalfPrestart",
+	"_comment18": "- OnPreHalfTimePrestart",
+	"OnMapSpawn": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": false,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] Config for de_dust2. OnMapSpawn Triggered"
+			]
+		}
+	],
+	"OnMapEnd": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": false,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] Config for de_dust2. OnMapEnd Triggered"
+			]
+		}
+	],
+	"OnRoundStartAlways": [
+		{
+			"ShowInConsole": true,
+			"EntryInLog": false,
+			"Delay": 0.0,
+			"Commands": [
+				"say [AutoExec] Config for de_dust2. OnRoundStartAlways Triggered"
+			]
+		}
+	]
+}
