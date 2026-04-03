@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
 using Sharp.Shared.Enums;
-using Sharp.Shared.Types;
 
 namespace MS_AutoExec
 {
